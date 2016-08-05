@@ -1,0 +1,17 @@
+dzz:
+  name: 'dzz'
+  sex: '男'
+  env: 'dev'
+spring:
+  freemarker:
+    suffix: .html
+server:
+  tomcat:
+    uri-encoding: utf-8
+  port: 8080
+#  ssl:
+#    key-store: .keystore
+#    key-store-password: 111111
+#    key-store-type: JKS
+#    key-alias: tomcat1
+#  port: 8443

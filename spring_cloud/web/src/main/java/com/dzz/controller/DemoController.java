@@ -23,4 +23,9 @@ public class DemoController {
         System.out.println(mongoConfig.toString());
         return "demo";
     }
+
+    @GetMapping("/")
+    public String welcome(){
+        return "index";
+    }
 }
