@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: house
+#  cloud:
+#    config:
+#      enabled: true
+#      discovery:
+#        enabled: true
+#        service-id: house
+eureka:
+  instance:
+    non-secure-port: 8082
+  client:
+    service-url:
+      defaultZone: http://${eureka.host:localhost}:${eureka.port:8761}/eureka/

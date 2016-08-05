@@ -1,0 +1,14 @@
+spring:
+  freemarker:
+    suffix: .ftl
+    cache: false
+    check-template-location: true
+    charset: UTF-8
+    content-type: text/html
+    expose-spring-macro-helpers: true
+    expose-request-attributes: true
+    expose-session-attributes: true
+dzz:
+  name: 'dzz'
+  sex: '男'
+  env: 'dev'
