@@ -1,0 +1,3 @@
+rootProject.name = 'spring_cloud'
+include 'web2'
+
